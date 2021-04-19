@@ -1,0 +1,19 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = crlf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+max_line_length = 120
+tab_width = 4
+trim_trailing_whitespace = true
+
+[*.vue]
+indent_size = 2
+tab_width = 2
+
+[*.md] # 表示仅 md 文件适用以下规则
+max_line_length = off
+trim_trailing_whitespace = false
