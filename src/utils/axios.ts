@@ -1,5 +1,5 @@
-import Axios from "axios";
-import {ElMessage} from "element-plus";
+import Axios from 'axios'
+import { ElMessage } from 'element-plus'
 
 const baseURL = "https://api.github.com";
 
